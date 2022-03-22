@@ -21,7 +21,7 @@ export default function App() {
                         <li className='unstyled'><a href="/for-individuals.html">For Individuals</a></li>
                         <li class="item-343"><a href="/for-corporates.html">For Corporates</a></li>
                         <li class="item-345"><a href="/related-services.html">Related Services</a></li>
-                        <li class="item-975"><a href="/immigration-zambia.html">Zambia Immigration</a></li>
+                        <li class="item-975"><a href="/immigration">Zambia Immigration</a></li>
                     </ul>
                 </div>
             </div>
