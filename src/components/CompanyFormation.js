@@ -5,8 +5,6 @@ import Companyreg from '../companyreg.jpg';
 import report from '../Flamingo PROFILE.pdf';
 import ContactDetails from './ContactDetails';
 
-
-
 export default class CompanyFormation extends Component {
   render() {
     return (

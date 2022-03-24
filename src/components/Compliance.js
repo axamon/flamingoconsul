@@ -5,8 +5,6 @@ import ComplianceImg from '../compliance.jpg';
 import report from '../Flamingo PROFILE.pdf';
 import ContactDetails from './ContactDetails';
 
-
-
 export default class Compliance extends Component {
   render() {
     return (

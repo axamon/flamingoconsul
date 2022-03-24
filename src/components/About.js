@@ -5,8 +5,6 @@ import AboutUs from '../aboutus.jpg';
 import report from '../Flamingo PROFILE.pdf';
 import ContactDetails from './ContactDetails';
 
-
-
 export default class About extends Component {
   render() {
     return (
