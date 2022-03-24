@@ -1,24 +1,23 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import ImmigrationDepartment from '../immigrationDepartment.jpg';
+import Liaison from '../liaison.jpg';
 import report from '../Flamingo PROFILE.pdf';
 import ContactDetails from './ContactDetails';
 
 
-export default class Immigration extends Component {
+export default class GovernmentLiaison extends Component {
   render() {
     return (
       <div className='text-justify'>
-        
         <Card style={{ width: '25rem' }}>
-            <Card.Img variant="top" src={ImmigrationDepartment} />
+            <Card.Img variant="top" src={Liaison} />
             <Card.Body>
-              <Card.Title>Immigration Services</Card.Title>
+              <Card.Title>Government Liaison Services</Card.Title>
               <Card.Text>
-              <p>We support individuals and corporate clients to acquire Zambian Visas and other immigration permits.</p>
-              <p>We provide professional guidance on required visa application documentation to ensure successful outcomes.</p>
-              <ContactDetails />
+                <p>We act as an official link to government contacts.</p>
+                <p>We facilitate communication and build mutually beneficial relationships between our clients and various government entities to support their business goals.</p>
+                <ContactDetails />
               </Card.Text>
               <a href={report} attributes-list download><Button>Get more info</Button></a>
             </Card.Body>

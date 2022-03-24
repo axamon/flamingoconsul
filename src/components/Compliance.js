@@ -1,23 +1,26 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import ImmigrationDepartment from '../immigrationDepartment.jpg';
+import ComplianceImg from '../compliance.jpg';
 import report from '../Flamingo PROFILE.pdf';
 import ContactDetails from './ContactDetails';
 
 
-export default class Immigration extends Component {
+
+export default class Compliance extends Component {
   render() {
     return (
       <div className='text-justify'>
         
         <Card style={{ width: '25rem' }}>
-            <Card.Img variant="top" src={ImmigrationDepartment} />
+            <Card.Img variant="top" src={ComplianceImg} />
             <Card.Body>
-              <Card.Title>Immigration Services</Card.Title>
+              <Card.Title>Regulatory Compliance Management</Card.Title>
               <Card.Text>
-              <p>We support individuals and corporate clients to acquire Zambian Visas and other immigration permits.</p>
-              <p>We provide professional guidance on required visa application documentation to ensure successful outcomes.</p>
+              <p>We help our clients to de-risk their operations from government-facing
+              disruptions by providing regulatory compliance management systems to help keep
+              them complaint with legal regulations and guidelines relevant to their business
+              processes.</p>
               <ContactDetails />
               </Card.Text>
               <a href={report} attributes-list download><Button>Get more info</Button></a>

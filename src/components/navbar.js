@@ -20,10 +20,10 @@ class NavBar extends Component {
                                         <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
                                         <NavDropdown title="Services" id="basic-nav-dropdown">
                                             <NavDropdown.Item href="/immigration">Immigration</NavDropdown.Item>
-                                            <NavDropdown.Item href="/company-formation">Company formation</NavDropdown.Item>
-                                            <NavDropdown.Item href="/reguatory-compliance">Regulatory compliance</NavDropdown.Item>
+                                            <NavDropdown.Item href="/company">Company formation</NavDropdown.Item>
+                                            <NavDropdown.Item href="/compliance">Regulatory compliance</NavDropdown.Item>
                                             <NavDropdown.Divider />
-                                            <NavDropdown.Item href="/government-liaison">Government liaison</NavDropdown.Item>
+                                            <NavDropdown.Item href="/government">Government liaison</NavDropdown.Item>
                                         </NavDropdown>
                                         <Nav.Link restricted={false} as={Link} to={"/about"}>About Us</Nav.Link>
                                         <Nav.Link restricted={false} as={Link} to={"/contacts"}>Contacts</Nav.Link>

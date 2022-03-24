@@ -14,6 +14,12 @@ import About from './components/About';
 import Contacts from './components/Contacts';
 import Home from './components/Home';
 import Immigration from './components/Immigration';
+import CompanyFormation from './components/CompanyFormation';
+import Compliance from './components/Compliance';
+import GovernmentLiaison from './components/GovernmentLiaison';
+
+
+
 
 class App extends Component {
  render() {
@@ -26,10 +32,17 @@ class App extends Component {
           <hr></hr>
         </div>
         <Routes className='row'>
+          <Route path="/*" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/immigration" element={<Immigration />} />
+          <Route path="/company" element={<CompanyFormation />} />
+          <Route path="/compliance" element={<Compliance />} />
+          <Route path="/government" element={<GovernmentLiaison />} />
+
+
+
         </Routes>
         <Footer  className='row bottom-0' />
       </div>
