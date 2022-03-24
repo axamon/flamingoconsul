@@ -1,4 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router,
+    Link,
+    Routes,
+    Route
+} from 'react-router-dom';
 
 import {
   MDBFooter,
@@ -9,9 +14,10 @@ import {
   MDBBtn,
   MDBRow
 } from 'mdb-react-ui-kit';
+import { Nav } from 'react-bootstrap';
 
 export default function App() {
-  return (
+  return (        
     <div className='container pt-5 mt-auto mb-auto border-0 text-center'>
         <div className="row">
             <div className="col-sm-3 ">
@@ -21,7 +27,7 @@ export default function App() {
                         <li className='unstyled'><a href="/for-individuals.html">For Individuals</a></li>
                         <li class="item-343"><a href="/for-corporates.html">For Corporates</a></li>
                         <li class="item-345"><a href="/related-services.html">Related Services</a></li>
-                        <li class="item-975"><a href="/immigration">Zambia Immigration</a></li>
+                        <li class="item-975"><Nav.Link restricted={false} as={Link} to={"/immigration"}>Zambia Immigration</Nav.Link></li>
                     </ul>
                 </div>
             </div>

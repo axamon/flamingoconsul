@@ -7,7 +7,7 @@ export default class Home extends Component {
         <div>
           <img src={zambiafingerprint} height="140px" />
             <p>
-                We help businesses manage regulatory compliance risks by providing executive compliance management solutions.
+                We are a dynamic compliance management consulting firm with unique specialization in immigration support, investment licensing support, company secretarial services, 360 degree compliance surveillance and management, and Government Relations.
             </p>
         </div>
     )
