@@ -25,9 +25,9 @@ class App extends Component {
  render() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div className='container bg-white vh-95'>
+      <div className='container vh-95'>
         <NavBar />
-        <div className='no-title item-page row'>
+        <div className='no-title bg-white text-center'>
           <h4>Immigration and Regulatory Compliance Experts</h4>
           <hr></hr>
         </div>

@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+#root {
+  background-color: gray;
+}
+
+#footer {
+  background-color: rgba(241, 239, 239, 0.952);
+}
 
 @keyframes App-logo-spin {
   from {

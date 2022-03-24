@@ -19,11 +19,11 @@ class NavBar extends Component {
                                     <Nav className="me-auto ms-auto justify-content-end">
                                         <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
                                         <NavDropdown title="Services" id="basic-nav-dropdown">
-                                            <NavDropdown.Item href="/immigration">Immigration</NavDropdown.Item>
-                                            <NavDropdown.Item href="/company">Company formation</NavDropdown.Item>
-                                            <NavDropdown.Item href="/compliance">Regulatory compliance</NavDropdown.Item>
+                                            <NavDropdown.Item as={Link} to={"/immigration"}>Immigration</NavDropdown.Item>
+                                            <NavDropdown.Item as={Link} to={"/company"}>Company formation</NavDropdown.Item>
+                                            <NavDropdown.Item as={Link} to={"/compliance"}>Regulatory compliance</NavDropdown.Item>
                                             <NavDropdown.Divider />
-                                            <NavDropdown.Item href="/government">Government liaison</NavDropdown.Item>
+                                            <NavDropdown.Item as={Link} to={"/government"}>Government liaison</NavDropdown.Item>
                                         </NavDropdown>
                                         <Nav.Link restricted={false} as={Link} to={"/about"}>About Us</Nav.Link>
                                         <Nav.Link restricted={false} as={Link} to={"/contacts"}>Contacts</Nav.Link>

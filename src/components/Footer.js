@@ -5,36 +5,27 @@ import { BrowserRouter as Router,
     Route
 } from 'react-router-dom';
 
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBIcon,
-  MDBInput,
-  MDBCol,
-  MDBBtn,
-  MDBRow
-} from 'mdb-react-ui-kit';
 import { Nav } from 'react-bootstrap';
 import ContactDetails from './ContactDetails';
 
 export default function App() {
   return (        
-    <div className='container pt-5 mt-auto mb-auto border-0 text-center'>
+    <div id='footer' className='container pt-5 mt-auto mb-auto border-0 text-center'>
         <div className="row">
-            <div className="col-sm-3 ">
+            <div className="col-sm-6 col-md-6 col-lg-5">
                 <div>
                     <h4>Services</h4>
                     <small>
                         <ul class="unstyled">
-                            <li class="item-975"><Nav.Link restricted={false} as={Link} to={"/immigration"}>Zambia Immigration</Nav.Link></li>
-                            <li class="item-343"><Nav.Link restricted={false} as={Link} to={"/company"}>Company formation and Registration</Nav.Link></li>
-                            <li class="item-975"><Nav.Link restricted={false} as={Link} to={"/compliance"}>Regulatory Compliance Management</Nav.Link></li>
-                            <li class="item-975"><Nav.Link restricted={false} as={Link} to={"/government"}>Government Liaison Services</Nav.Link></li>
+                            <li><Nav.Link restricted={false} as={Link} to={"/immigration"}>Zambia Immigration</Nav.Link></li>
+                            <li><Nav.Link restricted={false} as={Link} to={"/company"}>Company formation and Registration</Nav.Link></li>
+                            <li><Nav.Link restricted={false} as={Link} to={"/compliance"}>Regulatory Compliance Management</Nav.Link></li>
+                            <li><Nav.Link restricted={false} as={Link} to={"/government"}>Government Liaison Services</Nav.Link></li>
                         </ul>
                     </small>
                 </div>
             </div>
-            <div class="col-sm-3 ">
+            <div class="col-sm-5 col-md-6 col-lg-2">
                 <div>
                     <h4>Permit Types</h4>
                     <small>
@@ -48,7 +39,7 @@ export default function App() {
                     </small>
                 </div>
             </div>
-            <div class="col-sm-2">
+            {/* <div class="col-sm-2">
                 <div>
                     <h4>Related Topics</h4>
                     <small>
@@ -58,8 +49,8 @@ export default function App() {
                         </ul>
                     </small>
                 </div>
-            </div>
-            <div class="col-sm-4">
+            </div> */}
+            <div class="col-sm-12 col-md5  col-xl-5 col-lg-5">
                 <div>
                     <h4>Connect with us</h4>
                     <small>
