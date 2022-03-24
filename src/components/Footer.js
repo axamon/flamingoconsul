@@ -8,7 +8,7 @@ import ContactDetails from './ContactDetails';
 
 export default function App() {
   return (        
-    <div id='footer' className='container pt-5 mt-auto mb-auto border-0 text-center'>
+    <div id='footer' className='container pt-5 mt-1 mb-auto border-0 text-center'>
         <div className="row">
             <div className="col-sm-6 col-md-6 col-lg-5">
                 <div>
