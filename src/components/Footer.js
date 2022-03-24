@@ -15,6 +15,7 @@ import {
   MDBRow
 } from 'mdb-react-ui-kit';
 import { Nav } from 'react-bootstrap';
+import ContactDetails from './ContactDetails';
 
 export default function App() {
   return (        
@@ -47,7 +48,7 @@ export default function App() {
                     </small>
                 </div>
             </div>
-            <div class="col-sm-3 ">
+            <div class="col-sm-2">
                 <div>
                     <h4>Related Topics</h4>
                     <small>
@@ -58,14 +59,13 @@ export default function App() {
                     </small>
                 </div>
             </div>
-            <div class="col-sm-3 ">
+            <div class="col-sm-4">
                 <div>
                     <h4>Connect with us</h4>
                     <small>
                         <ul class=" ">
                             <li class="item-356"><a href="https://www.linkedin.com/company/flamingo-consultancy-ltd" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-                            <li class="item-357"><a href="/newsletter.html">Newsletter</a></li>
-                            <li class="item-358"><a href="/contacts">Contact</a></li>
+                            <li><ContactDetails /></li>
                         </ul>
                     </small>
                 </div>
@@ -73,11 +73,13 @@ export default function App() {
         </div>
         <div className='row'>
             <div className='md-9'>
-                <MDBFooter className='text-center' color='black' bgColor='light'>
-                    <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                        © 2022 Copyright: <a className='' href='https://www.flamingoconsul.com'>Flamingo Consultancy</a>
+                <small>
+                {/* <MDBFooter className='text-center' color='black' bgColor='white'> */}
+                    <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)', color: 'gray' }}>
+                    Copyright <a className='' href='https://www.flamingoconsul.com'>Flamingo Consultancy</a> © 2022. All rights reserved.
                     </div>
-                </MDBFooter>
+                {/* </MDBFooter> */}
+                </small>
             </div>
         </div>
     </div>
