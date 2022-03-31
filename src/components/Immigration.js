@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import ImmigrationDepartment from '../immigrationDepartment.jpg';
+import ImmigrationDepartment from '../FINAL LOGO.svg';
 import report from '../Flamingo PROFILE.pdf';
 import ContactDetails from './ContactDetails';
 

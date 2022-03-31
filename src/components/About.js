@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import AboutUs from '../aboutus.webp';
+import AboutUs from '../FINAL LOGO.svg';
 import report from '../Flamingo PROFILE.pdf';
 import ContactDetails from './ContactDetails';
-
+ 
 export default class About extends Component {
   render() {
     return (

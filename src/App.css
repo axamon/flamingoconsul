@@ -36,7 +36,7 @@
   background-color: gray;
   background-image: url('flag.jpg');
   /* background-repeat: no-repeat; */
-  background-position: 0% 30%;
+  background-position: 00px 100px; 
 }
 
 #footer {

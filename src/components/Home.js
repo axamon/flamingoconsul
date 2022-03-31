@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import report from '../Flamingo PROFILE.pdf';
-import ContactDetails from './ContactDetails';
 import logo from '../FINAL LOGO.svg';
 import CoreValues from './CoreValues';
 
