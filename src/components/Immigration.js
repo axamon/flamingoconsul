@@ -11,7 +11,7 @@ export default class Immigration extends Component {
     return (
       <div className='text-justify'>
         
-        <Card style={{ width: '25rem' }}>
+        <Card>
             <Card.Img variant="top" src={ImmigrationDepartment} />
             <Card.Body>
               <Card.Title>Immigration Services</Card.Title>

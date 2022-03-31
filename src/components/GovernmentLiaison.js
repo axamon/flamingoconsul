@@ -10,7 +10,7 @@ export default class GovernmentLiaison extends Component {
   render() {
     return (
       <div className='text-justify'>
-        <Card style={{ width: '25rem' }}>
+        <Card>
             <Card.Img variant="top" src={Liaison} />
             <Card.Body>
               <Card.Title>Government Liaison Services</Card.Title>

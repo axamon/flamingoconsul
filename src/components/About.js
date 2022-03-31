@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import AboutUs from '../aboutus.jpg';
+import AboutUs from '../aboutus.webp';
 import report from '../Flamingo PROFILE.pdf';
 import ContactDetails from './ContactDetails';
 
 export default class About extends Component {
   render() {
     return (
-      <div className='text-justify'>
-        
-        <Card style={{ width: '25rem' }}>
+      <div className='container text-justify'>
+        <Card>
             <Card.Img variant="top" src={AboutUs} />
             <Card.Body>
               <Card.Title>About Us</Card.Title>

@@ -10,7 +10,7 @@ export default class CompanyFormation extends Component {
     return (
       <div className='text-justify'>
         
-        <Card style={{ width: '25rem' }}>
+        <Card>
             <Card.Img variant="top" src={Companyreg} />
             <Card.Body>
               <Card.Title>Company Formation and Registration</Card.Title>

@@ -10,7 +10,7 @@ export default class Compliance extends Component {
     return (
       <div className='text-justify'>
         
-        <Card style={{ width: '25rem' }}>
+        <Card>
             <Card.Img variant="top" src={ComplianceImg} />
             <Card.Body>
               <Card.Title>Regulatory Compliance Management</Card.Title>

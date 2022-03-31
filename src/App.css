@@ -28,12 +28,23 @@
   color: #61dafb;
 }
 
+.card {
+  max-width: 500px;
+}
+
 #root {
   background-color: gray;
+  background-image: url('flag.jpg');
+  /* background-repeat: no-repeat; */
+  background-position: 0% 30%;
 }
 
 #footer {
   background-color: rgba(241, 239, 239, 0.952);
+}
+
+h2 {
+  color: orange;
 }
 
 @keyframes App-logo-spin {

@@ -13,12 +13,11 @@ export default class Contacts extends Component {
     return (
       <div className='text-justify'>
         
-        <Card style={{ width: '25rem' }}>
+        <Card>
             <Card.Img variant="top" src={logo} />
             <Card.Body>
               <Card.Title>Contact Us</Card.Title>
               <Card.Text>
-              <CoreValues />
               <ContactDetails />
               </Card.Text>
               <a href={report} attributes-list download><Button>Get more info</Button></a>

@@ -1,0 +1,32 @@
+ <xml version="1.0" encoding="UTF-8">
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+       <loc>https://www.flamingoconsul.com/home</loc>
+       <lastmod>2022-03-31</lastmod>
+    </url>
+    <url>
+       <loc>https://www.flamingoconsul.com/contacts</loc>
+       <lastmod>2022-03-31</lastmod>
+    </url>
+    <url>
+       <loc>https://www.flamingoconsul.com/about</loc>
+       <lastmod>2022-03-31</lastmod>
+    </url>
+    <url>
+       <loc>https://www.flamingoconsul.com/immigration</loc>
+       <lastmod>2022-03-31</lastmod>
+    </url>
+    <url>
+       <loc>https://www.flamingoconsul.com/company</loc>
+       <lastmod>2022-03-31</lastmod>
+    </url>
+    <url>
+       <loc>https://www.flamingoconsul.com/compliance</loc>
+       <lastmod>2022-03-31</lastmod>
+    </url>
+    <url>
+       <loc>https://www.flamingoconsul.com/government</loc>
+       <lastmod>2022-03-31</lastmod>
+    </url>
+   </urlset>
+   </xml>
