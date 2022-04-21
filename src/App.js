@@ -1,29 +1,29 @@
+import React, {Component, lazy, Suspense } from 'react';
+// import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
-import React, {Component} from 'react';
-import 'bootstrap/dist/css/bootstrap.css'
-import NavBar from './components/navbar';
-import Footer from './components/Footer';
 
 import { BrowserRouter as Router,
-  Link,
   Routes,
   Route
 } from 'react-router-dom';
 
-import About from './components/About';
-import Contacts from './components/Contacts';
-import Home from './components/Home';
-import Immigration from './components/Immigration';
-import CompanyFormation from './components/CompanyFormation';
-import Compliance from './components/Compliance';
-import GovernmentLiaison from './components/GovernmentLiaison';
+const NavBar = lazy(() => import('./components/navbar'));
+const Footer = lazy(() => import('./components/Footer'));
+const About = lazy(() => import('./components/About'));
+const Contacts = lazy(() => import('./components/Contacts'));
+const Home = lazy(() => import('./components/Home'));
+const Immigration = lazy(() => import('./components/Immigration'));
+const CompanyFormation = lazy(() => import('./components/CompanyFormation'));
+const Compliance = lazy(() => import('./components/Compliance'));
+const GovernmentLiaison = lazy(() => import('./components/GovernmentLiaison'));
 
-
+const renderLoader = () => <p>Loading</p>;
 
 
 class App extends Component {
  render() {
   return (
+    <Suspense fallback={renderLoader}>
     <Router basename={process.env.PUBLIC_URL}>
       <div className='container vh-95'>
         <NavBar />
@@ -40,13 +40,11 @@ class App extends Component {
           <Route path="/company" element={<CompanyFormation />} />
           <Route path="/compliance" element={<Compliance />} />
           <Route path="/government" element={<GovernmentLiaison />} />
-
-
-
         </Routes>
         <Footer  className='row bottom-0' />
       </div>
     </Router>
+    </Suspense>
   );
 }
 }
