@@ -33,10 +33,21 @@
 }
 
 #root {
-  background-color: gray;
-  background-image: url('flag.jpg');
+  /* background-color: rgb(89, 47, 240); */
+  /* background-image: url('flag.jpg'); */
   /* background-repeat: no-repeat; */
   background-position: 00px 100px; 
+}
+
+body {
+background-color: #00887a44;
+animation: name 20s infinite forwards;
+}
+
+@keyframes name {
+  0%, 100% {background-color:rgb(43, 142, 164);}
+  50% {background-color:rgb(80, 11, 123);}
+  90% {background-color:rgb(90, 26, 213);}
 }
 
 #footer {
