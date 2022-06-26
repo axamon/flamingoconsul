@@ -12,7 +12,7 @@ class NavBar extends Component {
                     <div className='row'>
                         <div className='md-9'>
                             <Navbar bg="light"  sticky="top" expand="lg md">
-                                <Navbar.Brand restricted={false} as={Link} to={{ pathname: "/home"}}><img src={logo} alt="Flamingo Consultancy" width="200"  />
+                                <Navbar.Brand restricted={false} as={Link} to={{ pathname: "/home"}}><img src={logo} alt="Flamingo Consultancy" width="200" id='logo' />
                                 </Navbar.Brand>
                                 <Navbar.Toggle  />
                                 <Navbar.Collapse id="basic-navbar-nav">

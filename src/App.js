@@ -25,10 +25,10 @@ class App extends Component {
   return (
     <Suspense fallback={renderLoader}>
     <Router basename={process.env.PUBLIC_URL}>
-      <div className='container vh-95'>
+      <div className='container vh-95 appear'>
         <NavBar />
         <div className='no-title bg-white text-center'>
-          <h4>Immigration and Regulatory Compliance Experts</h4>
+          <h4 id="slogan" className='appear'>Immigration and Regulatory Compliance Experts</h4>
           <hr></hr>
         </div>
         <Routes className='row'>
