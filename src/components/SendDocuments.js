@@ -14,7 +14,7 @@ export class SendDocuments extends Component {
             <Card.Body>
               {/* <Card.Title><small>Get more info about the company</small></Card.Title> */}
               <Card.Text>
-              <a href={report} attributes-list download><Button className='m-1'>Company Info</Button></a>
+              <a href={report} attributes-list download><Button className='m-1'>Download Company Info</Button></a>
               
               <a href='https://www.dropbox.com/request/3anRrp91CfqQfcsmD2fB' target="_blank" attributes-list download className='m-1'><Button >Upload your documents</Button></a>
               </Card.Text>
