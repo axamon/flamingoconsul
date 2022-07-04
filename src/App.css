@@ -29,7 +29,7 @@
 }
 
 .card {
-  width: 30rem;
+  max-width: 30rem;
   /* max-width: 500px; */
 }
 
