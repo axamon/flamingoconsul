@@ -21,7 +21,6 @@ export default class Compliance extends Component {
               processes.</p>
               <ContactDetails />
               </Card.Text>
-              <a href={report} attributes-list download><Button>Get more info</Button></a>
             </Card.Body>
         </Card>
       </div>

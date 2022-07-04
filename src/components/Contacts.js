@@ -20,7 +20,6 @@ export default class Contacts extends Component {
               <Card.Text>
               <ContactDetails />
               </Card.Text>
-              <a href={report} attributes-list download><Button>Get more info</Button></a>
             </Card.Body>
         </Card>
       </div>

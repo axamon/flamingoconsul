@@ -19,7 +19,6 @@ export default class GovernmentLiaison extends Component {
                 <p>We facilitate communication and build mutually beneficial relationships between our clients and various government entities to support their business goals.</p>
                 <ContactDetails />
               </Card.Text>
-              <a href={report} attributes-list download><Button>Get more info</Button></a>
             </Card.Body>
         </Card>
       </div>

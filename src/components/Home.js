@@ -24,7 +24,6 @@ export default class Home extends Component {
               <h2><b>Core Values</b></h2>
               <CoreValues />
               </Card.Text>
-              <a href={report} attributes-list download><Button>Get more info</Button></a>
             </Card.Body>
         </Card>
       </div>

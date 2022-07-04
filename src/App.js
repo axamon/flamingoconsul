@@ -16,6 +16,7 @@ const Immigration = lazy(() => import('./components/Immigration'));
 const CompanyFormation = lazy(() => import('./components/CompanyFormation'));
 const Compliance = lazy(() => import('./components/Compliance'));
 const GovernmentLiaison = lazy(() => import('./components/GovernmentLiaison'));
+const SendDocuments = lazy(() => import('./components/SendDocuments'));
 
 const renderLoader = () => <p>Loading</p>;
 
@@ -31,6 +32,10 @@ class App extends Component {
           <h4 id="slogan" className='appear'>Immigration and Regulatory Compliance Experts</h4>
           <hr></hr>
         </div>
+        <div className='uploadDocs'>
+          <SendDocuments />
+        </div>
+        <br></br>
         <Routes className='row'>
           <Route path="/*" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -41,6 +46,7 @@ class App extends Component {
           <Route path="/compliance" element={<Compliance />} />
           <Route path="/government" element={<GovernmentLiaison />} />
         </Routes>
+        
         <Footer  className='row bottom-0' />
       </div>
     </Router>

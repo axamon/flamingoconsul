@@ -20,7 +20,6 @@ export default class Immigration extends Component {
               <p>We provide professional guidance on required visa application documentation to ensure successful outcomes.</p>
               <ContactDetails />
               </Card.Text>
-              <a href={report} attributes-list download><Button>Get more info</Button></a>
             </Card.Body>
         </Card>
       </div>

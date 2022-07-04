@@ -18,7 +18,6 @@ export default class About extends Component {
               <p>Our team is backed by our Lead Consultant who comes with over 8 years experience in government relations and regulatory compliance management.</p>
               <ContactDetails />
               </Card.Text>
-              <a href={report} attributes-list download><Button>Get more info</Button></a>
             </Card.Body>
         </Card>
       </div>

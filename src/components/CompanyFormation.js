@@ -11,14 +11,13 @@ export default class CompanyFormation extends Component {
       <div className='text-justify'>
         
         <Card>
-            <Card.Img variant="top" src={Companyreg} />
+            <Card.Img maxwidth="50%" variant="top" src={Companyreg} />
             <Card.Body>
               <Card.Title>Company Formation and Registration</Card.Title>
               <Card.Text>
               <p>We work with local and foreign prospective investors to incorporate businesses and bring their investment goals to life.</p>
               <ContactDetails />
               </Card.Text>
-              <a href={report} attributes-list download><Button>Get more info</Button></a>
             </Card.Body>
         </Card>
       </div>
